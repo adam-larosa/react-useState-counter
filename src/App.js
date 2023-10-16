@@ -1,8 +1,15 @@
+
+
 function App() {
     return (
-        <div>
-            <h1>hello world</h1>
-        </div>
+        <section>
+            <div id="number">
+                0
+            </div>
+            <button>
+                click me!
+            </button>
+        </section>
     );
 }
 

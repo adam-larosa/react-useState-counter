@@ -1,4 +1,19 @@
 
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div#number {
+  font-size: 3em;
+  margin: 1em
+}
+
+button {
+  transform: scale( 1.5 )
+}
+
 div#root {
   background-color: #282c34;
   min-height: 100vh;
